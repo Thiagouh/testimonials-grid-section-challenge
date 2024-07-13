@@ -638,9 +638,14 @@ video {
   padding-right: 2rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pl-2 {
@@ -697,6 +702,10 @@ video {
 }
 
 body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: hsl(210, 46%, 95%);
   font-family: 'Barlow Semi Condensed', sans-serif;
 }

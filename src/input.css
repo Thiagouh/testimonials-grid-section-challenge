@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: hsl(210, 46%, 95%);
 	font-family: 'Barlow Semi Condensed', sans-serif;
-
 }
 
 main {
